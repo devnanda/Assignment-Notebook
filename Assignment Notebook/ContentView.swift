@@ -21,7 +21,7 @@ struct ContentView: View {
                             Text(item.description)
                         }
                         Spacer()
-                        Text(item.dueDate, style: .date)
+                        Text(item.dueDate, style:.date)
                     }
                 }
              .onMove(perform: { indices, newOffset in
@@ -32,7 +32,7 @@ struct ContentView: View {
                })
         }
             .sheet(isPresented: $showingAddView, content: {
-                AddView(assignmentList: assignmentList)
+                AddAssignmentView(assignmentList: assignmentList)
             })
            .navigationBarTitle("Assignment List")
            .navigationBarItems(leading: EditButton(),
@@ -50,7 +50,7 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
     
-    struct AssignmentItem: Identifiable, Codable {
+struct Assignment: Identifiable, Codable {
         var id = UUID()
         var course = String()
         var description = String()

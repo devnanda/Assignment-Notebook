@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F40924C25D4417B00062BB7 /* AssignmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40924B25D4417B00062BB7 /* AssignmentList.swift */; };
+		3F40924F25D4901A00062BB7 /* AddAssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40924E25D4901A00062BB7 /* AddAssignmentView.swift */; };
 		3F90F12525D19F340066A769 /* Assignment_NotebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90F12425D19F340066A769 /* Assignment_NotebookApp.swift */; };
 		3F90F12725D19F340066A769 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90F12625D19F340066A769 /* ContentView.swift */; };
 		3F90F12925D19F380066A769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F90F12825D19F380066A769 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		3F40924B25D4417B00062BB7 /* AssignmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentList.swift; sourceTree = "<group>"; };
+		3F40924E25D4901A00062BB7 /* AddAssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssignmentView.swift; sourceTree = "<group>"; };
 		3F90F12125D19F340066A769 /* Assignment Notebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment Notebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F90F12425D19F340066A769 /* Assignment_NotebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_NotebookApp.swift; sourceTree = "<group>"; };
 		3F90F12625D19F340066A769 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				3F90F12425D19F340066A769 /* Assignment_NotebookApp.swift */,
 				3F90F12625D19F340066A769 /* ContentView.swift */,
+				3F40924E25D4901A00062BB7 /* AddAssignmentView.swift */,
 				3F40924B25D4417B00062BB7 /* AssignmentList.swift */,
 				3F90F12825D19F380066A769 /* Assets.xcassets */,
 				3F90F12D25D19F380066A769 /* Info.plist */,
@@ -144,6 +147,7 @@
 				3F40924C25D4417B00062BB7 /* AssignmentList.swift in Sources */,
 				3F90F12725D19F340066A769 /* ContentView.swift in Sources */,
 				3F90F12525D19F340066A769 /* Assignment_NotebookApp.swift in Sources */,
+				3F40924F25D4901A00062BB7 /* AddAssignmentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
