@@ -16,7 +16,7 @@ class AssignmentList: ObservableObject {
             }
         }
     }
-
+    
     init() {
         if let items = UserDefaults.standard.data(forKey: "data") {
             let decoder = JSONDecoder()
@@ -26,5 +26,5 @@ class AssignmentList: ObservableObject {
             }
         }
         items = []
-}
+    }
 }
